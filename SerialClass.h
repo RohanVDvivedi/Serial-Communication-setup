@@ -25,7 +25,8 @@ class Serial
 
     public:
         //Initialize Serial communication with the given COM port
-        void Serialinit(char *portName,int baud);
+        Serial(char *portName);
+        Serial(char *portName,int baud);
         //Close the connection
         ~Serial();
         //Read data in a buffer, if nbChar is greater than the
