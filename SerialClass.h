@@ -1,7 +1,7 @@
 #ifndef SERIALCLASS_H_INCLUDED
 #define SERIALCLASS_H_INCLUDED
 
-#define ARDUINO_WAIT_TIME 3000
+#define ARDUINO_WAIT_TIME 300
 //#include <iostream>
 #include <windows.h>
 #include <stdio.h>
